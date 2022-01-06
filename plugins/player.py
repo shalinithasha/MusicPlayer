@@ -215,7 +215,7 @@ async def yplay(_, message: Message):
         try:
             thumb = info["thumbnail"]
         except:
-            thumb="https://telegra.ph/file/402ad9035855b68cf3106.png"
+            thumb="https://thumbs.dreamstime.com/b/good-life-typography-t-shirt-print-design-103787281.jpg"
             pass
         if int(duration) > DURATION_LIMIT:
             k=await message.reply_text(f"❌ Videos longer than {DURATION_LIMIT} minute(s) aren't allowed, the provided video is {duration} minute(s)")
@@ -337,7 +337,7 @@ async def deezer(_, message):
                 try:
                     thumb=song.get("image")
                 except:
-                    thumb="https://telegra.ph/file/402ad9035855b68cf3106.png"
+                    thumb="https://thumbs.dreamstime.com/b/good-life-typography-t-shirt-print-design-103787281.jpg"
                     pass
                 GET_THUMB[url] = thumb
                 now = datetime.now()
@@ -424,7 +424,7 @@ async def deezer(_, message):
             try:
                 thumb=a.get("image")
             except:
-                thumb="https://telegra.ph/file/402ad9035855b68cf3106.png"
+                thumb="https://thumbs.dreamstime.com/b/good-life-typography-t-shirt-print-design-103787281.jpg"
                 pass
             GET_THUMB[url] = thumb
         except:
