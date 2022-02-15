@@ -64,10 +64,10 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/MusicPlayer'),
+        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/shalinithasha/MusicPlayer'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
+        InlineKeyboardButton('👥 Group', url='https://t.me/nonstopedm'),
         InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
     ],
     [
@@ -86,14 +86,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/MusicPlayer'),
+            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/shalinithasha/MusicPlayer'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
+            InlineKeyboardButton('👥 Group', url='https://t.me/nonstopedm'),
             InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/josprojects/131'),
+            InlineKeyboardButton('🔰 How to Deploy ask from shalini 🔰', url='https://t.me/nonstopedm'),
         
         ]
     ]
