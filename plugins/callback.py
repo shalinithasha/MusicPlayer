@@ -215,11 +215,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/shalinithasha/MusicPlayer'),
             ],
             [
-               InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
+               InlineKeyboardButton('👥 Group', url='https://t.me/nonstopedm'),
                InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
             ],
             [
-               InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/josprojects/131'),
+               InlineKeyboardButton('🔰 How to Deploy ask from shalini 🔰', url='https://t.me/nonstopedm'),
         
             ]
         ]
